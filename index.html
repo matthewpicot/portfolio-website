@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="person">
+      <img
+        id="toggleTheme"
+        class="theme-btn"
+        src="assets/theme_light.png"
+        alt="theme icon"
+      />
+      <div class="personal-pic">
+        <img
+          src="assets/matthew.jpg"
+          alt="Matthew Picot"
+        />
+      </div>
+      <div class="my-info">
+        <h1>Matthew Picot</h1>
+        <h2>Fullstack Developer</h2>
+        <div class="logo-container">
+          <a href="https://github.com/matthewpicot?tab=repositories">
+            <img src="assets/github_light.png" alt="github logo"/>
+          </a>
+          <a href="www.linkedin.com/in/matthew-picot">
+            <img src="assets/linkedin_light.png" alt="linkedin logo"/>
+          </a>
+          <a href="mailto:matthewpicot0@gmail.com">
+            <img src="assets/email_light.png" alt="email logo"/>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="experience">
+      <h2><b>1</b><br />Year<br />Fullstack</h2>
+    </section>
+    <section class="resume">
+      <a href="assets/example-resume.pdf" download>
+        <button class="btn download-btn">Download Resume</button>
+      </a>
+      <a href="mailto:matthewpicot0@gmail.com">
+        <button class="btn contact-btn">Contact Me</button>
+      </a>
+    </section>
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Portfolio</button>
+        <button class="btn-2" id="skills-btn">Skills</button>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/matthewpicot/restaurant-reservation">
+          <img src="assets/restaurant-reservation.png" alt="restaurant reservation"/>
+        </a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/matthewpicot/we-love-movies-backend"
+          ><img src="assets/we-love-movies.png" alt="we love movies"/>
+        </a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/matthewpicot/project-recipe-app">
+          <img src="assets/recipe-app.png" alt="recipe app"/>
+        </a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/matthewpicot/decoder-ring">
+          <img src="assets/decoder-ring.png" alt="decoder ring"/>
+        </a>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Frontend</h3>
+        <article class="frontend-skills">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>ES6</p>
+          <p>Redux</p>
+          <p>JavaScript</p>
+          <p>TypeScript</p>
+          <p>React</p>
+          <p>Bootstrap</p>
+          <p>Mocha/Chai/Jest</p>
+        </article>
+      </div>
+      <div class="wrapper">
+        <h3>Backend</h3>
+        <article class="backend-skills">
+          <p>Node</p>
+          <p>Express</p>
+          <p>Restful APIs</p>
+          <p>Database CRUD</p>
+          <p>Git</p>
+          <p>PostgreSQL</p>
+          <p>Web Pack</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>&copy Matthew Picot 2023</p>
+    </footer>
+  </body>
+</html>
